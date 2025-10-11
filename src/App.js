@@ -529,6 +529,11 @@ export default function App() {
       description: "Finished Took Udacity internsip from the goverment of Egypt in Data Science & AI Level 3",
       pdf: "/certificates/Three.pdf",
     },
+      {
+      title: "I can type Fast Too <:",
+      description: "94 wpm",
+      image: "/hobbies/typing.png",
+    },
     ].map((item, i) => (
       <motion.div
         key={i}
