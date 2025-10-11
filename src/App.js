@@ -520,13 +520,13 @@ export default function App() {
       pdf: "/certificates/Im.pdf",
     },
     {
-      title: "Took Udaicty internsip from the goverment of Egypt in Data Science & AI Level 2",
-      description: "Finished Took Udaicty internsip from the goverment of Egypt in Data Science & AI Level 2",
+      title: "Took Udacity internsip from the goverment of Egypt in Data Science & AI Level 2",
+      description: "Finished Took Udacity internsip from the goverment of Egypt in Data Science & AI Level 2",
       pdf: "/certificates/lv2.pdf",
     },
     {
-      title: "Took Udaicty internsip from the goverment of Egypt in Data Science & AI Level3",
-      description: "Finished Took Udaicty internsip from the goverment of Egypt in Data Science & AI Level 3",
+      title: "Took Udacity internsip from the goverment of Egypt in Data Science & AI Level3",
+      description: "Finished Took Udacity internsip from the goverment of Egypt in Data Science & AI Level 3",
       pdf: "/certificates/Three.pdf",
     },
     ].map((item, i) => (
