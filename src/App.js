@@ -530,6 +530,11 @@ export default function App() {
       pdf: "/certificates/Three.pdf",
     },
       {
+      title: "Took Udacity internsip from the goverment of Egypt in Data Science & AI Level4",
+      description: "Finished Took Udacity internsip from the goverment of Egypt in Data Science & AI Level 4",
+      pdf: "/certificates/lv4.pdf",
+    },
+      {
       title: "I can type Fast Too <:",
       description: "94 wpm",
       image: "/hobbies/typing.png",
