@@ -292,7 +292,7 @@ export default function App() {
         >
           <h3 className="font-bold text-2xl mb-3">How I Started</h3>
           <p className="text-sm">
-            I began at 12 exploring creativity through design, video editing, and countless experiments — but it was coding and AI that truly captured my passion.
+            I began at 12 exploring many fields through design, video editing, and countless experiments — but it was coding and AI that truly captured my passion.
           </p>
         </motion.div>
 
@@ -536,7 +536,7 @@ export default function App() {
     },
       {
       title: "I can type Fast Too <:",
-      description: "94 wpm",
+      description: "96 wpm",
       image: "/hobbies/typing.png",
     },
     ].map((item, i) => (
