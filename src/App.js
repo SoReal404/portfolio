@@ -75,7 +75,7 @@ export default function App() {
       setIndex((prev) => (prev + 1) % lines.length);
     }, 4000);
     return () => clearInterval(interval);
-  }, []);
+  }, [lines.length]);
 
   // Math particle click
   const handleClick = (e) => {
@@ -128,7 +128,7 @@ export default function App() {
       window.removeEventListener("resize", updateLines);
       window.removeEventListener("scroll", updateLines);
     };
-  }, []);
+  }, [boxRefs]);
 
   return (
     <div
