@@ -1,4 +1,4 @@
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState, useRef, useMemo } from "react";
 import { motion } from "framer-motion";
 
 const mathSymbols = ["π", "∑", "∫", "dx/dy", "√", "∞", "∂", "≈", "≠", "≥"];
@@ -13,7 +13,7 @@ export default function App() {
   const [showMessage, setShowMessage] = useState(false);
   const [showContact, setShowContact] = useState(false);
 
-  const boxRefs = [useRef(null), useRef(null), useRef(null)];
+  const boxRefs = useMemo(() => [useRef(null), useRef(null), useRef(null)], []);
   const [paths, setPaths] = useState([]);
 
 
