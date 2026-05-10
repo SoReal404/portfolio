@@ -13,7 +13,10 @@ export default function App() {
   const [showMessage, setShowMessage] = useState(false);
   const [showContact, setShowContact] = useState(false);
 
-  const boxRefs = useMemo(() => [useRef(null), useRef(null), useRef(null)], []);
+  const boxRef0 = useRef(null);
+  const boxRef1 = useRef(null);
+  const boxRef2 = useRef(null);
+  const boxRefs = useMemo(() => [boxRef0, boxRef1, boxRef2], []);
   const [paths, setPaths] = useState([]);
 
 
