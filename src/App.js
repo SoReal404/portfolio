@@ -539,6 +539,11 @@ export default function App() {
       description: "96 wpm",
       image: "/hobbies/typing.png",
     },
+    {
+      title: "Data Analysis Contest Winner",
+      description: "Won a data analysis contest on freelancer.com",
+      image: "/contest1.png",
+    },
     ].map((item, i) => (
       <motion.div
         key={i}
@@ -623,6 +628,28 @@ export default function App() {
     </div> */}
   </div>
 </section>
+
+{/* Reviews Section */}
+<section className="relative z-10 py-20 px-6 bg-black text-white">
+  <h2 className="text-4xl font-bold mb-12 text-center text-green-400">Reviews</h2>
+  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+    <motion.div
+      className="bg-gray-900 rounded-xl shadow-2xl overflow-hidden cursor-pointer hover:shadow-green-400/50 transition-shadow duration-300"
+      whileHover={{ scale: 1.05 }}
+    >
+      <img
+        src="/review1.png"
+        alt="Review 1"
+        className="w-full h-60 object-contain bg-black"
+      />
+      <div className="p-6">
+        <h3 className="text-2xl font-bold mb-3 text-green-400">Client Review</h3>
+        <p className="text-gray-300 text-sm">Positive feedback from a client.</p>
+      </div>
+    </motion.div>
+  </div>
+</section>
+
 {/* Quote Section */}
 <section className="relative z-10 min-h-screen flex flex-col items-center justify-center bg-black text-white overflow-hidden px-6">
   {/* Floating particles / tech vibes */}
@@ -786,6 +813,34 @@ export default function App() {
         <i className="fab fa-linkedin-in text-2xl"></i>
       </a>
     </div>
+  </div>
+</div>
+
+<div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+  {/* Freelancer */}
+  <div className="bg-black/60 p-8 rounded-2xl border border-green-400/40 text-center">
+    <h3 className="text-green-400 font-mono text-xl mb-2">Freelancer</h3>
+    <a
+      href="https://www.freelancer.com/u/Marwan328?frm=Marwan328&sb=t"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-block px-4 py-2 bg-green-500 text-black font-semibold rounded-lg hover:bg-green-400 transition-colors"
+    >
+      View Profile
+    </a>
+  </div>
+
+  {/* Upwork */}
+  <div className="bg-black/60 p-8 rounded-2xl border border-green-400/40 text-center">
+    <h3 className="text-green-400 font-mono text-xl mb-2">Upwork</h3>
+    <a
+      href="https://www.upwork.com/freelancers/~01313f2942878f2c6b?mp_source=share"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-block px-4 py-2 bg-green-500 text-black font-semibold rounded-lg hover:bg-green-400 transition-colors"
+    >
+      View Profile
+    </a>
   </div>
 </div>
 
