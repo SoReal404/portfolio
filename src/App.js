@@ -779,7 +779,7 @@ export default function App() {
   <div className="bg-black/60 p-10 rounded-2xl border border-green-400/40 text-center md:col-span-2">
     <h3 className="text-green-400 font-mono text-xl mb-2">Email</h3>
     <p className="text-white font-mono text-lg break-all">
-      marwan.d.2008@gmail.com
+      soreal4004@gmail.com
     </p>
   </div>
       <br/>
